@@ -11,10 +11,18 @@
   <div class="section-divider"></div>
   <!-- display-box values determine whether or not an element generates boxes at all -->
   <div class="section">
+    <h2 class="section-heading">Display Outside values.</h2>
+    <div class="block">I am the default display value. Considered a block element and creates a newline after.</div>
+    <div class="inline"> I am inline. Margin/padding bottom/top won't stack on me. Play with me to see. </div><div class="inline"> I am also inline, notice that no new-line was created? </div>
+    <div class="run-in">Experimental don't use in production yet: I act like an in-line or a block. It really depends on what's near me. If I contain a block box, then I'm the same as block. If a block follows me, I become the first inline of the block. If an inline block follows me, then I become a block box. </div>    
+  </div>
+  <div class="section-divider"></div>
+  <!-- display-box values determine whether or not an element generates boxes at all -->
+  <div class="section">
     <h2 class="section-heading">Display Box values</h2>
     <div class="hint">Inspect me, there might be an element you don't see in the browser, but exists in the dom. *wink*</div>
     <div class="none"> I am hidden. I would still download in the browser though, moreso if I'm an image. You'll see me if you look close enough.</div>
-<div class="contents"> Experimental don't use in production yet: Notice how there's no margin below me? The elements I'm with don't create a box themselves, the box they would create is replaced
+    <div class="contents"> Experimental don't use in production yet: Notice how there's no margin below me? The elements I'm with don't create a box themselves, the box they would create is replaced
   by a pseudo-box and my child boxes.
       I remove the element from screen-reader visibility as well.
       <br>

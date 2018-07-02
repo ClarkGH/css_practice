@@ -16,6 +16,18 @@ div div {
   color: var(--hint-violet);
 }
 
+/* display outside */
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.run-in {
+  display: run-in;
+}
 /* display box */
 .none {
   display: none;
