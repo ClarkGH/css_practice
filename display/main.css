@@ -1,0 +1,26 @@
+/* variables */
+body {
+  --hint-violet: rgb(138, 25, 91);
+}
+
+/* general css */
+div div {
+  margin: 0px 0px 16px;
+}
+
+.section-divider {
+  border-bottom: 4px solid #000;
+  border-radius: 8px;
+}
+.hint {
+  color: var(--hint-violet);
+}
+
+/* display box */
+.none {
+  display: none;
+}
+
+.contents {
+  display: contents;
+}
